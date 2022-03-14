@@ -134,7 +134,7 @@ public class Main {//Main es statico lo que significa que no pertenece a nadie, 
             System.out.println(figure.getName() + ", Area: " + figure.getArea() + ", Perímetro: " + figure.getPerimeter());
         }
 
-        if(Modifier.isAbstract(Figure.class.getModifiers())){
+        if(Modifier.isAbstract(Figure.class.getModifiers())){//Aquí preguntamos si la clase figure es abstract por medio de la condición
             System.out.println("Figure es abstracta");
         }
         System.out.println("Se generaron: " + Figure.getFiguresCreated() + " figuras");
